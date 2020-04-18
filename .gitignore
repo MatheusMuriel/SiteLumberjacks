@@ -1,0 +1,52 @@
+
+# Created by https://www.gitignore.io/api/vim,wordpress,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=vim,wordpress,visualstudiocode
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+
+# Auto-generated tag files
+tags
+
+# Persistent undo
+[._]*.un~
+
+# Coc configuration directory
+.vim
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### WordPress ###
+wp-config.php
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# End of https://www.gitignore.io/api/vim,wordpress,visualstudiocode
