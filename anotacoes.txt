@@ -1,0 +1,12 @@
+Instalado o MariaDB, WordPress (pelo pacman mesmo) e phpmyadmin.... Lamp já estava instalado
+
+include nos arquivos de configuração do apache
+seguindo a wiki do Arch
+
+criado o banco de dados "wordpress" 
+
+criado o arquivo "wp-config.php" em "/usr/share/webapps/wordpress"
+
+credenciais do wp
+
+Login de admin: http://localhost/wordpress/wp-login.php 
